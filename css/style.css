@@ -1,0 +1,35 @@
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #dbeede;
+}
+
+.navbar {
+	background-color: #2e1f54;
+}
+
+#brand {
+	color: #ed3b21;
+}
+
+.navbar-toggler {
+	border: 0;
+}
+
+.active {
+	background-color: #ed3b21;
+}
+
+.nav-link {
+	text-align: center;
+}
+
+.nav-link:hover {
+	background-color: #ed3b21;
+}
+
+@media (max-width: 575.98px) {
+	.navbar-collapse {
+		border-top: 1px solid #ed3b21;
+	}
+}
